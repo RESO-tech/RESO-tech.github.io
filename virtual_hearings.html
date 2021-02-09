@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>payment_invoices</title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="CodedThemes">
+      <meta name="author" content="CodedThemes">
+      <!-- Favicon icon -->
+      <!-- Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+      <!-- Required Fremwork -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+      <!-- themify-icons line icon -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+      <!-- ico font -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+      <!-- Style.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+  </head>
+
+  <body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <a class="mobile-search morphsearch-search" href="#">
+                            <i class="ti-search"></i>
+                        </a>
+                        <a href="index.html">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options">
+                            <i class="ti-user"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                       
+                        <ul class="nav-right">
+                            
+                            <li class="header-notification">
+                                <a href="#!">
+                                    <i class="ti-bell"></i>
+                                    <span class="badge bg-c-pink"></span>
+                                </a>
+                                <ul class="show-notification">
+                                    <li>
+                                        <h6>Notifications</h6>
+                                        <label class="label label-danger">New</label>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">John Doe</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Joseph William</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Sara Soudein</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="user-profile header-notification">
+                                <a href="#">
+                                    <i class="ti-user"></i>
+                                    <span>John Doe</span>
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-settings"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-user"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-email"></i> My Notification 
+                                        </a>
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-layout-sidebar-left"></i> Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                         <ul class="nav-right mnd">
+                          <li> <a href="#">
+                                    Home
+                                </a></li>
+                                 <li > <a href="#">
+                                    About Us
+                                </a></li>
+
+                               
+                               <li class="user-profile header-notification">
+                                <a href="#">
+                                    Dispute Resolution Professional(DRP) <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                      <li>
+                                        <a href="#">
+                                            All DRP  
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                             Facilitators 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Mediators 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                             Arbitrators  
+                                        </a>
+                                    </li>
+                                 
+                                   
+                                </ul>
+                            </li>
+                                <li> <a href="#">
+                                    How Reso Works
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                          <div class="pcoded-navigatio-lavel" data-i18n="" menu-title-theme="theme1"></div>
+                          <ul class="pcoded-item pcoded-left-item m-t-30">
+                            <li class="pcoded"> <a href="index.html"> <span class="pcoded-micon"><img src="assets/images/home.png"></span> <span class="pcoded-mtext" data-i18n="nav.dash.main">Home</span> <span class="pcoded-mcaret"></span> </a> </li>
+                            <li class="pcoded"> <a href="mediation-center.html"> <span class="pcoded-micon"><img src="assets/images/paper.png"></span> <span class="pcoded-mtext"  data-i18n="">Start New Case</span> </a> </li>
+                            <li class="pcoded-hasmenu"> <a href="mycases.html"> <span class="pcoded-micon"><img src="assets/images/case.png"></i></span> <span class="pcoded-mtext"  data-i18n=""> My Case</span> <span class="pcoded-mcaret"></span> </a>
+                              <ul class="pcoded-submenu">
+                                <li class=" "> <a href="mycases.html"> <span class="pcoded-micon"><i class="ti-angle-right"></i></span> <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Facilitators </span> <span class="pcoded-mcaret"></span> </a> </li>
+                                <li class=" "> <a href="mycases.html"> <span class="pcoded-micon"><i class="ti-angle-right"></i></span> <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Mediators </span> <span class="pcoded-mcaret"></span> </a> </li>
+                                <li class=" "> <a href="mycases.html"> <span class="pcoded-micon"><i class="ti-angle-right"></i></span> <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Arbitrators </span> <span class="pcoded-mcaret"></span> </a> </li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+                          <ul class="pcoded-item pcoded-left-item">
+                            <li> <a href="fee-calculator-mediation.html"> <span class="pcoded-micon"><img src="assets/images/budget.png"></i></span> <span class="pcoded-mtext" data-i18n="">Fee Calculator</span> <span class="pcoded-mcaret"></span> </a> </li>
+                            <li class="active"> <a href="virtual_hearings.html"> <span class="pcoded-micon"><img src="assets/images/laptop.png"></i></span> <span class="pcoded-mtext" data-i18n=""> Hearings</span> <span class="pcoded-mcaret"></span> </a> </li>
+                          </ul>
+                          
+                          <ul class="pcoded-item pcoded-left-item">
+                            <li> <a href="case_coordinator.html"> <span class="pcoded-micon"><img src="assets/images/call-center.png"></span> <span class="pcoded-mtext" data-i18n="">Case Coordinator</span> <span class="pcoded-mcaret"></span> </a> </li>
+                            <li> <a href="payment_invoices.html"> <span class="pcoded-micon"><img src="assets/images/wallet.png"></span> <span class="pcoded-mtext" data-i18n="">Payment & Invoice</span> <span class="pcoded-mcaret"></span> </a> </li>
+                            <li class="pcoded-"> <a href="help_center.html"> <span class="pcoded-micon"><img src="assets/images/question(1).png"></span> <span class="pcoded-mtext"  data-i18n="">Help Center</span> <span class="pcoded-mcaret"></span> </a> </li>
+                          </ul>
+                          
+                          <ul class="pcoded-item pcoded-left-item">
+                            <li class="pcoded- "> <a href="javascript:void(0)"> <span class="pcoded-micon"><img src="assets/images/settings.png"></span> <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Settings</span> <span class="pcoded-mcaret"></span> </a> </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-body">
+                                    
+                                            <!-- card1 end -->
+                                            <!-- card1 start -->
+                                           
+                                            <!-- card1 end -->
+                                     
+                                            <div class="card m-t-30">
+                                                <div class="col-lg-12 col-xl-12">
+                                                    <div class="card-header">
+                                                                <div class="card-header-left ">
+                                                                    <h4>Hearings</h4>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                                        <!-- <h6 class="sub-title">Tab With Icon</h6> -->
+                                                                        <!-- Nav tabs -->
+                                                                        
+                                                                        <!-- Tab panes -->
+                                                                        <div class="tab-content">
+                                                                            <div class="tab-pane active" id="home7" role="tabpanel" aria-expanded="false">
+                                                                                <div class="table-responsive">
+                                                                    <table class="table table-hover">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>S No.</th>
+                                                                                <th>Case ID </th>
+                                                                                <th>Case Coordinator </th>
+                                                                                <th>Upcoming Hearing Date </th>
+                                                                                <th>Joining Link</th>
+                                                                                <th>Hearing Report</th>
+                                                                                <th>Case Mode </th>
+                                                                                <th>Claimant</th>
+                                                                                <th>Respondent</th>
+                                                                                <th>DRP</th>
+                                                                                <th>View Case</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>
+                                                                                    <div class="task-contain">
+                                                                                        <h4 class="label label-success text-center">A-21001</h4>
+                                                   
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p class="d-inline-block m-r-20">Ram Nath : 9999803694 </p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">bit.ly/2jefio.com</p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">View Report</p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">Arbitration</p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">Rohan Singh</p>
+                                                                                   
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p class="d-inline-block m-r-20">Kunal Kamara</p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">Adv. R.K.Singh</p>
+                                                                                   
+                                                                                </td>
+                                                                                 <td>
+                                                                                    <p class="d-inline-block m-r-20">...</p>
+                                                                                   
+                                                                                </td>
+                                                                           </tr>
+
+                                                                           <tr>
+                                                                            <td>1</td>
+                                                                            <td>
+                                                                                <div class="task-contain">
+                                                                                    <h4 class="label label-success text-center">A-21001</h4>
+                                               
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <p class="d-inline-block m-r-20">Ram Nath : 9999803694 </p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">bit.ly/2jefio.com</p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">View Report</p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">Arbitration</p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">Rohan Singh</p>
+                                                                               
+                                                                            </td>
+                                                                            <td>
+                                                                                <p class="d-inline-block m-r-20">Kunal Kamara</p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">Adv. R.K.Singh</p>
+                                                                               
+                                                                            </td>
+                                                                             <td>
+                                                                                <p class="d-inline-block m-r-20">...</p>
+                                                                               
+                                                                            </td>
+                                                                       </tr>
+                                                                           
+                                                                          
+                                                                             
+                                                                           
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    
+                                                   </div>
+
+                                    <div id="styleSelector">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+<!-- Required Jquery -->
+<script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="assets/js/modernizr/modernizr.js"></script>
+<!-- am chart -->
+<script src="assets/pages/widget/amchart/amcharts.min.js"></script>
+<script src="assets/pages/widget/amchart/serial.min.js"></script>
+<!-- Todo js -->
+<!-- Custom js -->
+<script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript " src="assets/js/SmoothScroll.js"></script>
+<script src="assets/js/pcoded.min.js"></script>
+<script src="assets/js/demo-12.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+
+</html>
